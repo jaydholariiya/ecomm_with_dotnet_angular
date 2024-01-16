@@ -1,0 +1,59 @@
+<nav class="navbar">
+    <a class="logo" routerLink="/"><h1>E-COMM</h1></a>
+   
+
+    <div style="text-align: center;" *ngIf="menuHeader === 'user' || menuHeader === 'default'" class="search-bar" >
+        <input #searchInput (keyup)="searchProduct($event)" class="search-input" type="text" placeholder="Search"/>
+        
+        <button (click)="submitSearch(searchInput.value)">Search</button>
+      
+    </div>
+    <!-- <ul style="padding-top: 50px;  overflow-x: auto; display: list-item; z-index: 10; top: 40px; " class="suggest" *ngFor="let item of searchResult">
+        <li style="color: white;">{{item.name}}</li>
+    </ul> -->
+   
+  
+    <div [ngSwitch]="menuHeader">
+        
+    <ul class="nav-list" *ngSwitchCase="'default'" >
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/seller-auth">Seller</a></li>
+        <li><a routerLink="/user-auth">Login</a></li>
+      
+        <li><a routerLink="/seller-home"></a></li>
+        
+    </ul>
+
+
+    <ul class="nav-list" *ngSwitchCase="'user'" >
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/seller-auth">Seller</a></li>
+        <li><a class="sellerName" style="color: #007bff;">{{userEmail }}</a></li>
+        <!-- <li><h3 class="sellerName" style="color: #007bff;">{{userName  }}</h3></li>
+        <li><h3 class="sellerName" style="color: #007bff;">{{usersInfo }}</h3></li> -->
+        <li><a routerLink="">Cart ({{cartItem}})</a></li>
+        <li><a (click)="userlogout()">LogOut</a></li>
+
+      
+        <!-- <li><a routerLink="">Cart (0)</a></li> -->
+        <!-- <li><a routerLink="/seller-home"></a></li> -->
+        
+    </ul>
+
+
+
+    <ul class="nav-list" *ngSwitchCase="'seller'" >
+        <li><a routerLink="/seller-home">Product List</a></li>
+        <li><a routerLink="/seller-add-product">Add Product</a></li>
+        <li><a (click)="logout()">LogOut</a></li>
+        <!-- <li><h3 class="sellerName" style="color: #007bff;">{{sellerName  | titlecase}}</h3></li> -->
+        <li><a class="sellerName" style="color: #007bff;">{{sellerEmail  | titlecase}}</a></li>
+        <!-- <li><a routerLink="/seller-home"></a></li> -->
+        
+    </ul>
+
+
+
+</div>
+
+</nav>

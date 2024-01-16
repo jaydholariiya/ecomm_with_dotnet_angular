@@ -1,0 +1,43 @@
+<div class="done">
+    <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" *ngIf="!showing">
+        <h1 class="form-heading">Seller Auth</h1>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" ngModel required>
+        </div>
+      
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"  ngModel required>
+        </div>
+      
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" ngModel required>
+        </div>
+      
+        <button>Sign Up</button>
+        <br><br>
+        <b><a style="color: darkslateblue; font-family:tahoma" (click)="openLogin()">If Already Login Clicking ..</a></b>
+      </form>
+    
+      
+      <form #sellerLogin="ngForm" (ngSubmit)="Login(sellerLogin.value)" *ngIf="showing">
+        <p style="text-align: center; color:red">{{IsErrorAuth}}</p>
+        <h1 class="form-heading">Seller Login</h1>
+      
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"  ngModel required>
+        </div>
+      
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" ngModel required>
+        </div>
+      
+        <button>Log in</button><br><br>
+        <b><a (click)="openSignUp()" style="color: darkslateblue; font-family:tahoma">New Register Seller ..</a></b>
+      </form>
+    
+    </div>

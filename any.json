@@ -1,0 +1,359 @@
+{
+  "user": [
+    {
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "password": "user2",
+      "id": 1
+    },
+    {
+      "name": "user3",
+      "email": "user3@gmail.com",
+      "password": "user3",
+      "id": 2
+    },
+    {
+      "name": "user5",
+      "email": "user5@gmail.com",
+      "password": "user5",
+      "id": 3
+    },
+    {
+      "name": "user5",
+      "email": "user5@gmail.com",
+      "password": "user5",
+      "id": 4
+    },
+    {
+      "name": "user6",
+      "email": "user6@gmail.com",
+      "password": "user6",
+      "id": 5
+    },
+    {
+      "name": "user7",
+      "email": "user7@gmail.com",
+      "password": "user7",
+      "id": 6
+    },
+    {
+      "name": "user8",
+      "email": "user8@gmail.com",
+      "password": "user8",
+      "id": 7
+    },
+    {
+      "name": "user9",
+      "email": "user9@gmail.com",
+      "password": "user9",
+      "id": 8
+    },
+    {
+      "name": "user10",
+      "email": "user10@gmail.com",
+      "password": "user10",
+      "id": 9
+    },
+    {
+      "name": "user11",
+      "email": "user11@gmail.com",
+      "password": "user11",
+      "id": 10
+    },
+    {
+      "name": "user11",
+      "email": "user11@gmail.com",
+      "password": "user11",
+      "id": 11
+    },
+    {
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "password": "user2",
+      "id": 12
+    },
+    {
+      "name": "user13",
+      "email": "user13@g.com",
+      "password": "user13",
+      "id": 13
+    },
+    {
+      "name": "user17",
+      "email": "user17@gmail.com",
+      "password": "user17",
+      "id": 14
+    },
+    {
+      "name": "user18",
+      "email": "user18@g.com",
+      "password": "user18",
+      "id": 15
+    },
+    {
+      "name": "user",
+      "email": "user@g.com",
+      "password": "user",
+      "id": 16
+    },
+    {
+      "name": "user30",
+      "email": "user30@g.com",
+      "password": "user30",
+      "id": 17
+    },
+    {
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "user1",
+      "id": 18
+    },
+    {
+      "name": "jay",
+      "email": "jaydholariya2@gmail.com",
+      "password": "jay2",
+      "id": 19
+    }
+  ],
+  "product": [
+    {
+      "name": "oppo tino 5g",
+      "price": "80000",
+      "color": "white",
+      "category": "mobile",
+      "description": "Oppo phones are known for their sleek design, advanced camera technology, and innovative features, offering a premium mobile experience.",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/i/m/7/-original-imagndwgszztcbsb.jpeg?q=90",
+      "id": 3
+    },
+    {
+      "name": "samsung m54 5g",
+      "price": "10000",
+      "color": "white",
+      "category": "mobile",
+      "description": "\"Samsung: Innovative Technology at Your Fingertips\"",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164358540/in-feature-galaxy-a-535015954?$FB_TYPE_A_MO_JPG$",
+      "id": 4
+    },
+    {
+      "name": "mi xiamio leo 5g",
+      "price": "20000",
+      "color": "black",
+      "category": "mobile",
+      "description": "\"Cutting-edge technology in the palm of your hand – Mi Phone, your ultimate companion for innovation and style.\"",
+      "image": "https://i02.appmifile.com/362_operator_in/23/04/2021/b23987f4a6605e2f4be4562bd0149fd8!800x800!85.png",
+      "id": 5
+    },
+    {
+      "name": "mi xiamio leo 5g",
+      "price": "30000",
+      "color": "red",
+      "category": "mobile",
+      "description": "mi the india no 1 brand in smart phones ",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/3/2021/05/mi11-c64ee1c.jpg?quality=90&fit=620,413",
+      "id": 6
+    },
+    {
+      "name": "dell g series",
+      "price": "60000",
+      "color": "black",
+      "category": "laptop",
+      "description": "Designed For Everyone Needs. Laptop and Desktops With Intel® Core™ Processors.",
+      "image": "https://i.dell.com/sites/csimages/Product_Imagery/all/cs2303g0008-607872-gl-cs-co-site-banner-aw-mseries-family-800x620-left.png",
+      "id": 7
+    },
+    {
+      "name": "apple macbook",
+      "price": "100000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "apple the brand",
+      "image": "https://5.imimg.com/data5/II/OY/MY-6222353/mac-air-apple-laptop.jpg",
+      "id": 8
+    },
+    {
+      "name": "dell g series 10",
+      "price": 100000,
+      "color": "black",
+      "category": "laptop",
+      "description": "Designed For Everyone Needs. Laptop and Desktops With Intel® Core™ Processors.",
+      "image": "https://5.imimg.com/data5/II/OY/MY-6222353/mac-air-apple-laptop.jpg",
+      "id": 10
+    },
+    {
+      "name": "dell latitude",
+      "price": "20000",
+      "color": "black",
+      "category": "laptop",
+      "description": "Designed For Everyone Needs. Laptop and Desktops With Intel® Core™ Processors.",
+      "image": "https://i.dell.com/sites/csimages/Product_Imagery/all/cs2303g0008-607872-gl-cs-co-site-banner-aw-mseries-family-800x620-left.png",
+      "id": 11
+    },
+    {
+      "name": "dell",
+      "price": 200000,
+      "color": "dark",
+      "category": "computer pc",
+      "description": "nothing",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXmtvOClaasWGArb4OxcDO232eO_fLx8s5Xw&usqp=CAU",
+      "id": 12
+    }
+  ],
+  "seller": [
+    {
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "password": "jay123",
+      "id": 1
+    },
+    {
+      "name": "Neel Bhalodiya",
+      "email": "neel@gmail.com",
+      "password": "neel123",
+      "id": 2
+    },
+    {
+      "name": "davendra",
+      "email": "davendra@gmail.com",
+      "password": "davendra",
+      "id": 4
+    },
+    {
+      "name": "abhi",
+      "email": "abhi@gmail.com",
+      "password": "abhi",
+      "id": 5
+    },
+    {
+      "name": "papa",
+      "email": "papa@g.com",
+      "password": "papa",
+      "id": 6
+    },
+    {
+      "name": "mom",
+      "email": "mom@g.com",
+      "password": "mom",
+      "id": 7
+    },
+    {
+      "name": "tpn",
+      "email": "tpn@g.com",
+      "password": "tpn",
+      "id": 8
+    },
+    {
+      "name": "nice",
+      "email": "nice@g.com",
+      "password": "nice",
+      "id": 9
+    },
+    {
+      "name": "jay dholariya ",
+      "email": "jay@g.com",
+      "password": "jay",
+      "id": 10
+    },
+    {
+      "name": "hiii",
+      "email": "hiii@g.com",
+      "password": "hiii",
+      "id": 11
+    },
+    {
+      "name": "happy",
+      "email": "happy@gmail.com",
+      "password": "happy",
+      "id": 12
+    },
+    {
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "password": "yash",
+      "id": 13
+    },
+    {
+      "name": "i'm jay dholariya",
+      "email": "jd123@gmail.com",
+      "password": "jd123",
+      "id": 14
+    },
+    {
+      "name": "king",
+      "email": "king@g.com",
+      "password": "king",
+      "id": 15
+    },
+    {
+      "name": "anna",
+      "email": "anna@g.com",
+      "password": "anna",
+      "id": 16
+    },
+    {
+      "name": "1",
+      "email": "1",
+      "password": "1",
+      "id": 17
+    },
+    {
+      "name": "jjj",
+      "email": "jjj@g.com",
+      "password": "jjj",
+      "id": 18
+    },
+    {
+      "name": "tu",
+      "email": "tu@g.c",
+      "password": "tu",
+      "id": 19
+    },
+    {
+      "name": "uk",
+      "email": "uk@g.c",
+      "password": "uk",
+      "id": 20
+    },
+    {
+      "name": "111",
+      "email": "111@g.c",
+      "password": "111",
+      "id": 21
+    },
+    {
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "password": "jay",
+      "id": 22
+    },
+    {
+      "name": "ok",
+      "email": "ok@g.com",
+      "password": "ok",
+      "id": 23
+    },
+    {
+      "name": "love",
+      "email": "love@g.com",
+      "password": "love",
+      "id": 24
+    },
+    {
+      "name": "love@g.com",
+      "email": "love@g.com",
+      "password": "love",
+      "id": 25
+    },
+    {
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "user1",
+      "id": 26
+    },
+    {
+      "name": "seller",
+      "email": "seller@gmail.com",
+      "password": "seller123",
+      "id": 27
+    }
+  ]
+}

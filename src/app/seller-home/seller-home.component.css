@@ -1,0 +1,78 @@
+*{
+    font-family: tahoma;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #123;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  .image-cell {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+  }
+
+  .image-cell img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+  }
+
+  .delete-button {
+    background-color: #ff5b5b; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for spacing */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+  
+  /* Add hover effect */
+  .delete-button:hover {
+    background-color: #e03232; /* Darker red background color on hover */
+  }
+  
+  /* Add a subtle shadow for depth */
+  .delete-button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .image-cell img:hover {
+    transform: scale(1.1);
+  }
+  
+
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+
+    .image-cell {
+      width: 60px;
+      height: 60px;
+    }
+
+    table {
+      overflow-x: auto;
+    }
+  }

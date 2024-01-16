@@ -1,0 +1,37 @@
+<div class="main">
+   
+    <b><p class="paragraph" style="text-align: center; align-items : center; color : green">{{productMsg}}</p>
+    <table>
+     
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Color</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Image</th>
+        <th>Action</th>
+        <th>Update The Value</th>
+        <!-- <th>Action</th> -->
+        <!-- <th>ico</th> -->
+        
+      </tr>
+      <tr *ngFor="let item of productList">
+        <td>{{item.name}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.color}}</td>
+        <td>{{item.category}}</td>
+        <td>{{item.description}}</td>
+        <td class="image-cell"><img src="{{item.image}}" alt="Product Image"></td>
+        <td><button class="delete-button" style="text-align: center; align-items : center; margin-left: 30px;" (click)="deleteProduct(item.id)" aria-hidden="true">Delete</button>  </td>
+            <td>
+            <a routerLink="/seller-update-product/{{item.id}}"> <button class="delete-button" style="background-color: blue; color: white; margin-left: 20px;">Update</button></a>
+        </td>
+      
+ 
+        <!-- <i class="fa fa-trash" aria-hidden="true"></i> -->
+      </tr>
+    
+    </table>
+</b>
+</div>

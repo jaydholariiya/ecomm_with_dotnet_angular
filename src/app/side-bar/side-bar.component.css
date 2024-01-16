@@ -1,0 +1,138 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    font-family: Tahoma;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #123;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style the logo */
+.logo {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.logo:hover {
+    color: #007bff;
+}
+
+.logo img {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    margin-right: 25px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+/* Unique design: Add an underline on hover */
+.nav-list a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #007bff;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s;
+}
+
+.nav-list a:hover {
+    color: #007bff;
+}
+
+.nav-list a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    /* position: absolute; */
+
+    
+}
+
+.search-bar input[type="text"] {
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding: 6px 25px;
+    cursor: pointer;
+}
+
+.sellerName:hover {
+    color: white;
+}
+
+
+/* Media query for responsive design */
+@media screen and (max-width: 420px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+        padding-left: 20px; /* Adjust padding for better spacing */
+        margin-bottom: 10px;
+    }
+
+    .search-bar input[type="text"] {
+        width: 100%; /* Make the input expand to full width */
+        padding: 10px; /* Increase padding for touch-friendly use */
+    }
+
+    .sellerName:hover {
+        color: white;
+    }
+}

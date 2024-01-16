@@ -1,0 +1,15 @@
+<div class="any" *ngFor="let item of searchResult">
+    <div class="cart-item" >
+        <a routerLink="/details/{{item.id}}">
+        <img src="{{item.image}}" alt="Product Image" class="product-image" height="400px" >
+    </a>
+        
+        <div class="product-details">
+            <a routerLink="/details/{{item.id}}"><h3>{{item.name}}</h3></a>
+       
+          <p class="price">Price : {{item.price}}</p>
+          <p class="color">Color : {{item.color}}</p>
+          <p class="description">{{item.description}}</p>
+        </div>
+      </div>
+</div>

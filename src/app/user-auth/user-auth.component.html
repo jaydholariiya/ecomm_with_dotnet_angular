@@ -1,0 +1,51 @@
+<div class="done">
+    <form #userSignUp="ngForm" (ngSubmit)="UsersignUp(userSignUp.value)" *ngIf="show" >
+        <h1 class="form-heading">User Auth</h1>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" ngModel required>
+        </div>
+      
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"  ngModel required>
+        </div>
+      
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" ngModel required>
+        </div>
+      
+        <button class="btn-danger">Sign Up</button>
+        <br><br>
+        <b><a (click)="openSignUp()" style="color: #123; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >If Already Login Clicking ..</a></b>
+      </form>
+
+
+
+
+
+      <form #LoginData="ngForm" (ngSubmit)="LoginUser(LoginData.value)" *ngIf="!show"  >
+        <p style="text-align: center; color:red"></p>
+        <h1 class="form-heading" style="color: #123;">User Login</h1>
+      
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"  ngModel required>
+        </div>
+      
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" ngModel required>
+        </div>
+      
+        <button>Log in</button><br><br>
+        <b><a (click)="openLogin()" style="color: #123; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">New Register User ..</a></b>
+      </form>
+    
+    </div>
+
+
+    
+      
+     

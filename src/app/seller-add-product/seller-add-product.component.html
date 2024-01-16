@@ -1,0 +1,37 @@
+<div class="main">
+    <div class="container">
+        <h2>Add Product</h2>
+        <p style="color: green; align-items : center; text-align :center ">{{addProductMessage}}</p>
+        <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" ngModel required>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" ngModel required>
+            </div>
+            <div class="form-group">
+                <label for="color">Color</label>
+                <input type="text" id="color" ngModel name="color">
+            </div>
+            <div class="form-group">
+                <label for="category">Category</label>
+                <input type="text" id="category" ngModel name="category">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" ngModel required>
+            </div>
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="text" id="name" name="image" ngModel required>
+                
+            </div>
+            <div class="form-group">
+                <button class="animated-button" type="submit">Add Product</button>
+                
+            </div>
+        </form>
+    </div>
+    </div>
